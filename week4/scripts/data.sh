@@ -6,10 +6,10 @@
 #: Description : Q5 
 #: Options : 
 
-echo "What is your user name?"
+printf "What is your user name? "
 read username
-echo "What month were you born in?"
+printf "What month were you born in? "
 read month
-echo "What is your favourite colour?"
+printf "What is your favourite colour? "
 read colour
-echo "Hello" $username "you were born in" $month "and your favourite colour is" $colour
+printf "Hello $username you were born in $month and your favourite colour is $colour %s\n"
